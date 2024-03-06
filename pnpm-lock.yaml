@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@actions/cache':
-    specifier: ^3.2.2
-    version: 3.2.2
+    specifier: npm:@useblacksmith/cache@3.2.41
+    version: /@useblacksmith/cache@3.2.41
   '@actions/core':
     specifier: ^1.10.1
     version: 1.10.1
@@ -62,23 +62,6 @@ packages:
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
     engines: {node: '>=0.10.0'}
     dev: true
-
-  /@actions/cache@3.2.2:
-    resolution: {integrity: sha512-6D0Jq5JrLZRQ3VApeQwQkkV20ZZXjXsHNYXd9VjNUdi9E0h93wESpxfMJ2JWLCUCgHNLcfY0v3GjNM+2FdRMlg==}
-    dependencies:
-      '@actions/core': 1.10.1
-      '@actions/exec': 1.1.1
-      '@actions/glob': 0.1.2
-      '@actions/http-client': 2.2.0
-      '@actions/io': 1.1.3
-      '@azure/abort-controller': 1.1.0
-      '@azure/ms-rest-js': 2.7.0
-      '@azure/storage-blob': 12.16.0
-      semver: 6.3.1
-      uuid: 3.4.0
-    transitivePeerDependencies:
-      - encoding
-    dev: false
 
   /@actions/core@1.10.1:
     resolution: {integrity: sha512-3lBR9EDAY+iYIpTnTIXmWcNbX3T2kCkAEQGIQx4NVQ0575nk2k3GRZDTPQG+vVtS2izSLmINlxXf0uLtnrTP+g==}
@@ -602,6 +585,23 @@ packages:
   /@ungap/structured-clone@1.2.0:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
+
+  /@useblacksmith/cache@3.2.41:
+    resolution: {integrity: sha512-uGMhrp+3wnRN67i96mCsf3OswU4UREuQxwujQE1Ti15ESJBdhuDp6mt5L57RbUhNEfLqIRxZMqQCDCj/OLqKXQ==}
+    dependencies:
+      '@actions/core': 1.10.1
+      '@actions/exec': 1.1.1
+      '@actions/glob': 0.1.2
+      '@actions/http-client': 2.2.0
+      '@actions/io': 1.1.3
+      '@azure/abort-controller': 1.1.0
+      '@azure/ms-rest-js': 2.7.0
+      '@azure/storage-blob': 12.16.0
+      semver: 6.3.1
+      uuid: 3.4.0
+    transitivePeerDependencies:
+      - encoding
+    dev: false
 
   /@vercel/ncc@0.38.1:
     resolution: {integrity: sha512-IBBb+iI2NLu4VQn3Vwldyi2QwaXt5+hTyh58ggAMoCGE6DJmPvwL3KPBWcJl1m9LYPChBLE980Jw+CS4Wokqxw==}
